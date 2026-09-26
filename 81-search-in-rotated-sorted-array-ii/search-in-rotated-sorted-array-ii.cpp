@@ -2,9 +2,8 @@ class Solution {
 public:
     bool search(vector<int>& nums, int target) {
         sort(nums.begin(), nums.end());
-        int n = nums.size();
         int low = 0;
-        int high = n-1;
+        int high = nums.size()-1;
 
         while(low <= high){
             int mid = (low+high)/2;
