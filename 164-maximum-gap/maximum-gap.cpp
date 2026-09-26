@@ -8,8 +8,6 @@ public:
         for(int i=1;i<n-1;i++){
             ans = max(ans, abs(nums[i]-nums[i+1]));
         }
-
         return ans;
-
     }
 };
